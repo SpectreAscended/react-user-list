@@ -1,7 +1,6 @@
 import React, { useState } from 'react';
 import AddUser from './components/Users/AddUser';
 import UsersList from './components/Users/UsersList';
-// import ErrorModal from './components/UI/ErrorModal';
 
 const DUMMY_DATA = [
   {
@@ -40,7 +39,6 @@ const App = () => {
 
   return (
     <div>
-      {/* <ErrorModal title="Invalid Input" message="You dun fucked up A-Aron" /> */}
       <AddUser onAddUser={addUserHandler} />
       {users.length > 0 && (
         <UsersList users={users} onDeleteUser={deleteUsersHandler} />
