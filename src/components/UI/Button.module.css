@@ -1,0 +1,13 @@
+.button {
+  padding: 0.5rem 1rem;
+  border: none;
+  background: rgb(170, 45, 45);
+  color: #fff;
+  cursor: pointer;
+  transition: background 250ms ease;
+}
+
+.button:hover,
+.button:active {
+  background: rgb(201, 36, 36);
+}

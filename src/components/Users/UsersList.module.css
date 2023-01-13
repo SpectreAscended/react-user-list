@@ -1,0 +1,22 @@
+.users {
+  margin: 2rem auto;
+  padding: 1rem;
+  width: 90%;
+  max-width: 40rem;
+}
+
+.users ul {
+  list-style: none;
+}
+
+.users li {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border: 1px solid #ccc;
+  padding: 0.25rem;
+}
+
+.users li:not(:last-child) {
+  margin-bottom: 1rem;
+}
