@@ -2,6 +2,8 @@
   background-color: rgba(58, 53, 53, 0.295);
   position: fixed;
   height: 100vh;
+  top: 0;
+  left: 0;
   width: 100%;
   backdrop-filter: blur(0.5rem);
   z-index: 100;
